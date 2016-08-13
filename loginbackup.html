@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href = "index.css">          
+    <script src="index.js"></script>
+    <title>Login</title>
+    </head>
+    <body>
+        <div>
+        <center><h1><img src = "myPart/www/ElephantLogo.png" alt = "logo" id = logo height= 300px;>LEARN THOSE WORDS
+<img src = "myPart/www/ElephantLogo.png" alt = "logo" id = logo height= 300px;></h1></center>
+        <h4>LOGIN PAGE</h4>
+        </div>
+        <form>
+            Username:<br>
+            <input type = "text" name = "username" id = "name"><br>
+            <br><input type = "submit" onclick = "check(this.form)" value = "Submit" >
+        </form>
+        <script type = "text/javascript">
+            function check(form){
+                if(form.username.value == "@PeanutyBanana"){
+                    window.open('loginbackup2.html');
+                }
+                else{
+                    alert("Username incorrect.");
+                }
+            }
+        </script>
+        <a href = "forget.html">Forget Username or Password?</a>
+        <p></p>
+        <a href = "index.html">Main Page --></a>
+    </body>
+    </body>
+</html>

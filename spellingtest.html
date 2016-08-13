@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href = "index.css">          
+   <script src="index.js"></script>
+    <title>Spelling test</title>
+    <script src = "spelling.js"></script>
+</head>
+<body>
+    <button type="button" class="btn btn-default btn-lg" onclick = "gohome()">
+  <span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home
+</button>
+    <div>
+    <center><h1><img src = "myPart/www/ElephantLogo.png" alt = "logo" id = logo height= 300px;>LEARN THOSE WORDS
+<img src = "myPart/www/ElephantLogo.png" alt = "logo" id = logo height= 300px;></h1></center>
+    <center><div id = "spellingTestTitle" style = "width: 75%; height: 30px; background-color:lightblue"><h2>SPELLING TEST!</h2></div></center>
+    <a href = "spellingtest.html"><img src = "volume.png" alt = "volume" height = "30" width = "30"></a>
+    <form>
+        Spell the word you hear:<br>
+        <input type = "text" name = "signupfirstname"><br>
+    </form>
+    <p></p>
+    <button type = "button" onclick = "chooseWord()">Generate New Word</button>
+    <p></p>
+    <button type = "button" onclick = "checkSpelling()">Submit</button>
+    <div id = "correct">
+    <p>Correct: </p>
+    </div>
+    <div id = "incorrect">
+    <p>Incorrect: </p>
+    </div>
+</body>
+</html>

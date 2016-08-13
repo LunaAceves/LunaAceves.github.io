@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href = "index.css">          
+    <script src="index.js"></script>
+    <title>Pronouncing Words</title>
+    <script src = "spelling.js"></script>
+</head>
+<body>
+    <button type="button" class="btn btn-default btn-lg" onclick = "gohome()">
+    <span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home
+    </button>
+
+    <center><h1><img src = "myPart/www/ElephantLogo.png" alt = "logo" id = logo height= 300px;>LEARN THOSE WORDS
+<img src = "myPart/www/ElephantLogo.png" alt = "logo" id = logo height= 300px;></h1></center>
+    <center><div id = "accountTitle" style = "width: 75%; height: 30px; background-color:lightblue;"><h2>ADD WORDS TO YOUR SPELLING LIST!</h2></div></center>
+    <p></p>
+    <center>
+        <form id = "spellform" name = "toSpell">
+        Add a word: <br>
+        <input type = "text" name = "word"><br>
+        <input type = "submit" value = "Add Word" onclick = "alert('Word Added!')">
+        
+    </form>
+    </center>
+    <p></p>
+</body>
+</html>

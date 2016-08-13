@@ -1,0 +1,109 @@
+body{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#87e0fd+0,53cbf1+40,05abe0+100;Blue+3D+%23+16 */
+background: rgb(135,224,253); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(135,224,253,1) 0%, rgba(83,203,241,1) 40%, rgba(5,171,224,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(135,224,253,1) 0%,rgba(83,203,241,1) 40%,rgba(5,171,224,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(135,224,253,1) 0%,rgba(83,203,241,1) 40%,rgba(5,171,224,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#05abe0',GradientType=0 ); /* IE6-9 */
+
+}
+
+@font-face {
+    font-family: Coiny;
+    src: url("myPart/www/coiny-regular.ttf");
+}
+
+@font-face{
+    font-family: WorkSans;
+    src: url("WorkSans-SemiBold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Copse;
+    src: url("myPart/www/Copse-Regular.ttf");
+}
+
+h1 
+{
+    font-family: coiny;
+    text-align: center;
+    color: #004d00;
+}
+
+h2{
+    font-family: coiny;
+    text-align: center;
+    color: #004d00;
+}
+
+h3{
+    color: #000033;
+    font-family: Copse;
+    
+}
+
+h4{
+    color: #000033;
+    font-family: Copse;
+    
+}
+
+.grid2x2 {
+  min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.grid2x2 > div {
+  display: flex; 
+  flex-basis: calc(50% - 40px);  
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 0%;
+  padding: 80px 10px;
+  
+ 
+}
+.grid2x2 > div > div {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  font-size: 100%
+}
+
+.box { margin: 20px; font-family: WorkSans; padding: 0px; color: #000033; font-size: 70;}
+.box1 { background-color: #ffccff; width: 100%;}
+.box2 { background-color: #ffff80; }
+.box3 { background-color: #ffff80; }
+.box4 { background-color: #ffccff; }
+
+.container {
+    font-family: WorkSans;
+}
+
+.btn {
+    background-color: #8066B3;
+    color: aqua;
+}
+
+li{
+    font-family: WorkSans;
+    font-size: 20px;
+}
+
+logo{
+    float: left;
+    vertical-align: text-top;
+    
+}
+
+img.logo{
+    width: 15%;
+    height: 15%;
+}
+
+a{
+    color: #004d00; 
+}
+
+

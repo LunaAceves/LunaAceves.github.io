@@ -1,0 +1,80 @@
+body{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#87e0fd+0,53cbf1+40,05abe0+100;Blue+3D+%23+16 */
+background: rgb(135,224,253); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(135,224,253,1) 0%, rgba(83,203,241,1) 40%, rgba(5,171,224,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(135,224,253,1) 0%,rgba(83,203,241,1) 40%,rgba(5,171,224,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(135,224,253,1) 0%,rgba(83,203,241,1) 40%,rgba(5,171,224,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#05abe0',GradientType=0 ); /* IE6-9 */
+    
+    background-image: url("collage.jpg");
+    background-size: 100px 100px;
+}
+
+@font-face {
+    font-family: Coiny;
+    src: url("coiny-regular.ttf");
+        
+}
+
+@font-face {
+    font-family: copse;
+    src: url("Copse-Regular.ttf");
+}
+
+@font-face{
+    
+    font-family:pretty;
+    src: url("vicdem.ttf");
+}
+
+h1{
+    color: #99ddff;
+    font-family: copse;
+    font-weight: 800;
+    font-size: 50px;
+   
+}
+
+
+h4{
+    color: #000033;
+    font-family: Copse;
+    font-size: 30px;
+    
+    
+}
+h2{
+    color: #b3ffb3;
+    font-family: pretty;
+    font-size: 45px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+    
+    
+    
+}
+
+.btn {
+    background-color: #8066B3;
+    color: aqua;
+}
+
+#logo{
+    float: right;
+    vertical-align: text-top;
+    
+    
+}
+
+ #page
+{
+    float: inherit;
+    
+}
+
+#titleBook
+{
+    list-style-position: inside;
+    font-size: 15px;
+}

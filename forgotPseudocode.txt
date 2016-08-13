@@ -1,0 +1,50 @@
+pseudocode for forgot page
+
+email array
+username array
+password array 
+
+submit name/password
+store new name/password in variables
+store personal email in variable 
+new variable for personal email address index 
+
+if new name submitted:
+	//find index of email
+	for(k = 0; k < email.length; k++):
+		 if email[k] === personal email:
+			index of email = k
+	while(i != index of email):
+		if i == index of email:
+			username[i] = new username
+		else:
+			i = i + 1
+
+if new password submitted:
+	//find index of email
+	for(k = 0; k < email.length; k++):
+		if email[k] === personal email:
+			index of email = k 
+	while(i != index of email):
+		if i == index of email:
+			password[i] = new password
+		else:
+			i = i + 1
+
+if new name and new password submitted:
+	//find index of email
+	for(k = 0; k < email.length; k++):
+		if email[k] === personal email:
+			index of email = k 
+
+	while(i != index of email):
+		if i == index of email:
+			username[i] = new username
+		else:
+			i = i + 1
+	while(i != index of email):
+		if i == index of email:
+			password[i] = new password
+		else:
+			i = i + 1
+			
